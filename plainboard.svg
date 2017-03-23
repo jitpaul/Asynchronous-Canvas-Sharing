@@ -1,0 +1,4 @@
+<svg xml:space="preserve"  id="svg_ajaj" onload="Load_svg(evt)" onmousedown="OnMouseDownFn(evt)"  onmousemove="OnMouseMoveFn(evt)" onmouseup="OnMouseUpFn(evt)" width="100%" height="100%" version="1.1"
+xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<script xlink:href="fnctns.js" type="text/ecmascript"/>
+</svg>

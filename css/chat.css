@@ -1,0 +1,125 @@
+/* Main chat container */
+
+#chatContainer{
+    width:310px;
+    margin:100px auto;
+    position:relative;
+    left:-15px;
+    top:-56px;
+}
+
+
+/* Top Bar */
+
+#chatTopBar{
+    height:40px;
+    background:url('../img/solid_gray.jpg') repeat-x #d0d0d0;
+    border:1px solid #fff;
+    border-radius:25px;
+    margin-bottom:15px;
+    position:relative;
+
+    color:#777;
+    text-shadow:1px 1px 0 #FFFFFF;
+}
+
+#chatTopBar img{
+    left:9px;
+    position:absolute;
+    top:8px;
+}
+
+
+/* Chats */
+
+#chatLineHolder{
+    height:400px;
+    
+    margin-bottom:20px;
+    outline:none;
+    overflow:auto;
+    
+}
+
+
+
+
+/* Chat User Area */
+
+#chatUsers{
+    background-color:#202020;
+    border:1px solid #111111;
+    height:500px;
+    position:absolute;
+    right:0;
+    top:96px;
+    width:150px;
+    border-radius:25px;
+}
+
+
+
+/* Bottom Bar */
+
+#chatBottomBar{
+    background:url('../img/solid_gray.jpg') repeat-x #d0d0d0;
+    position:relative;
+    padding:10px;
+    border:1px solid #fff;
+    border-radius:15px;
+}
+
+#chatBottomBar .tip{
+    position:absolute;
+    width:0;
+    height:0;
+    border:10px solid transparent;
+    border-bottom-color:#eeeeee;
+    top:-20px;
+    left:10px;
+}
+
+
+
+
+
+
+
+
+
+/* Additional styles */
+
+#chatContainer .blueButton{
+    background:url('../img/button_blue.png') no-repeat;
+    border:none !important;
+    color:#516D7F !important;
+    display:inline-block;
+    font-size:13px;
+    height:29px;
+    text-align:center;
+    text-shadow:1px 1px 0 rgba(255, 255, 255, 0.4);
+    width:75px;
+    margin:0;
+    cursor:pointer;
+}
+
+
+.lbutton
+{
+ background:url('../img/button_blue.png') no-repeat;
+ width:85px; 
+ height:29px;
+ margin:0px;
+ text-align:center;
+ text-shadow:1px 1px 0 rgba(255, 255, 255, 0.4);
+ border:none !important;
+ color:#516D7F !important;
+ display:inline-block;
+ font-size:13px;
+ cursor:pointer;
+}
+
+
+#chatContainer .blueButton:hover{
+    background-position:left bottom;
+}
