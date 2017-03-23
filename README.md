@@ -1,4 +1,4 @@
-asynchronous-canvas-sharing
+Asynchronous Canvas Sharing
 ===========================
 
 ## Authors
